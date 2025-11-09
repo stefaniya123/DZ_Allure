@@ -26,10 +26,10 @@ jobs:
       run: pytest --alluredir=./allure-results
 
     - name: Generate Allure report
-      uses: qameta/allure-action@v1.3.0
+      uses: simple-elf/allure-report-action@v1.0.5
       with:
-        results_directory: ./allure-results
-        report_directory: ./allure-report
+        allure_results: ./allure-results
+        allure_report: ./allure-report
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
