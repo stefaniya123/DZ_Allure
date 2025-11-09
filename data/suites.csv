@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Авторизация через логин и пароль","1185","Авторизация с невалидными данными","test_selenium","Sun Nov 09 13:36:54 UTC 2025","passed","Sun Nov 09 13:36:56 UTC 2025","","test_form","",""
+"Авторизация через логин и пароль","1650","Авторизация с валидными данными","test_selenium","Sun Nov 09 13:36:52 UTC 2025","passed","Sun Nov 09 13:36:54 UTC 2025","","test_form","",""
